@@ -8,4 +8,4 @@ Note that you need to have DockerHub and Docker installed on your system.
 - `docker-compose up --build --always-recreate-deps --remove-orphans -- <service-name>`
 
 ## Howto's
-There is a readme.md file inside every component folder (e.g. ./Backend) describing corresponding processes. 
+There is a readme.md file inside every component's folder (e.g. ./Backend) describing tutorial for corresponding processes.
