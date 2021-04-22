@@ -11,5 +11,7 @@ Make sure you have your database up an running (and connection string is correct
 - dotnet ef database update --context SPriceIdentityContext
 
 ## Running locally
-You can run the backend app locally using `dotnet run` command.
+There are 2 external dependencies that the app uses, namely database(has to be in a correct format according to the solutions data model) and appsearch server. Connection to these dependencies can be configured in appsettings.Development.json (appsettings.json for production purposes - dockerized solution)
 Note that for the project to run correctly `dotnet restore` needs to be executed prior to `dotnet run`.
+
+- You can run the backend app locally using `dotnet run` command.
