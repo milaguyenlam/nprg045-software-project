@@ -1,0 +1,43 @@
+query GetFavouriteList {
+  favouriteList {
+    ...FavouriteListItem_GetFavouriteList
+  }
+}
+
+fragment FavouriteListItem_GetFavouriteList on FavouriteListItemDTO {
+  id
+  product {
+    ...Product_GetFavouriteList
+  }
+}
+
+fragment Product_GetFavouriteList on ProductDTO {
+  id
+  picturePath
+  name
+  activeOffers {
+    ...ActiveOffer_GetFavouriteList
+  }
+}
+
+fragment ActiveOffer_GetFavouriteList on ActiveOfferDTO {
+  id
+  price
+  discountRate
+  toDate
+  description
+  store {
+    ...Store_GetFavouriteList
+  }
+}
+
+fragment Store_GetFavouriteList on StoreDTO {
+  vendor {
+    ...Vendor_GetFavouriteList
+  }
+}
+
+fragment Vendor_GetFavouriteList on VendorDTO {
+  name
+  thumbnailPath
+}

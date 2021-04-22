@@ -1,0 +1,9 @@
+mutation ArchiveShoppingList {
+  archiveShoppingList {
+    ...ShoppingList_ArchiveShoppingList
+  }
+}
+
+fragment ShoppingList_ArchiveShoppingList on ShoppingListDTO {
+  id
+}

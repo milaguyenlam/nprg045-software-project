@@ -1,0 +1,11 @@
+mutation Register($registerForm: RegisterFormInput!) {
+  register(form: $registerForm) {
+    ...AuthResponse_Register
+  }
+}
+
+fragment AuthResponse_Register on AuthResponse {
+  status
+  message
+  token
+}

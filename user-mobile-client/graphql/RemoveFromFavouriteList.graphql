@@ -1,0 +1,9 @@
+mutation RemoveFromFavouriteList($productId: Int!) {
+  removeFromFavouriteList(productId: $productId) {
+    ...FavouriteListItem_RemoveToFavouriteList
+  }
+}
+
+fragment FavouriteListItem_RemoveToFavouriteList on FavouriteListItemDTO {
+  id
+}

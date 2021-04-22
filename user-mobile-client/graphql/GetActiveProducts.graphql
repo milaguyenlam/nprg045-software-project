@@ -1,0 +1,49 @@
+query GetActiveProducts(
+  $offset: Int!
+  $limit: Int!
+  $categoryIds: [Int!]
+  $vendorId: Int
+  $filterType: FilterType!
+) {
+  activeProducts(
+    offset: $offset
+    limit: $limit
+    categoryIds: $categoryIds
+    vendorId: $vendorId
+    filterType: $filterType
+  ) {
+    ...Product_GetActiveProducts
+  }
+}
+
+fragment Product_GetActiveProducts on ProductDTO {
+  id
+  name
+  picturePath
+  activeOffers {
+    ...ActiveOffer_GetActiveProducts
+  }
+}
+
+fragment ActiveOffer_GetActiveProducts on ActiveOfferDTO {
+  id
+  price
+  discountRate
+  description
+  fromDate
+  toDate
+  store {
+    ...Store_GetActiveProducts
+  }
+}
+
+fragment Store_GetActiveProducts on StoreDTO {
+  vendor {
+    ...Vendor_GetActiveProducts
+  }
+}
+
+fragment Vendor_GetActiveProducts on VendorDTO {
+  name
+  thumbnailPath
+}

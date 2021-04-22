@@ -1,0 +1,24 @@
+{
+  "name": "sprice-graphql-codegen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-client": "graphql-codegen --config client-config.yml",
+    "generate-crawler-api": "nswag jsonschema2csclient /input:schemas/crawler-schema.json /output:../../Backend/Models/Crawler/Types.cs /name:Offer /namespace:Backend.Models.Crawler",
+    "generate-crawler-client": "datamodel-codegen --input ./schemas/crawler-schema.json --output ./../../Crawler/lib/Models/models.py",
+    "generate-crawler": "npm run generate-crawler-api && npm run generate-crawler-client"
+  },
+  "author": "Nguyen Thanh Lam",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "graphql": "^15.4.0",
+    "@graphql-codegen/cli": "^1.20.0",
+    "@graphql-codegen/c-sharp": "^1.17.10",
+    "@graphql-codegen/typescript": "1.19.0",
+    "@graphql-codegen/typescript-operations": "1.17.12",
+    "@graphql-codegen/typescript-react-apollo": "2.2.1",
+    "nswag": "^13.10.1"
+  }
+}

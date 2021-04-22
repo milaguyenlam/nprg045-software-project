@@ -1,0 +1,31 @@
+query GetShoppingListItems($listId: Int) {
+  shoppingListItems(listId: $listId) {
+    ...ShoppingListItem_GetShoppingListItems
+  }
+}
+
+fragment ShoppingListItem_GetShoppingListItems on ShoppingListItemDTO {
+  id
+  quantity
+  state
+  activeOffer {
+    ...ActiveOffer_GetShoppingListItems
+  }
+}
+
+fragment ActiveOffer_GetShoppingListItems on ActiveOfferDTO {
+  id
+  toDate
+  price
+  discountRate
+  inStockCount
+  product {
+    ...Product_GetShoppingListItems
+  }
+}
+
+fragment Product_GetShoppingListItems on ProductDTO {
+  id
+  name
+  picturePath
+}

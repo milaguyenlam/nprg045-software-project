@@ -1,0 +1,10 @@
+query GetShoppingLists {
+  shoppingLists {
+    ...ShoppingList_GetShoppingLists
+  }
+}
+
+fragment ShoppingList_GetShoppingLists on ShoppingListDTO {
+  id
+  closeTime
+}

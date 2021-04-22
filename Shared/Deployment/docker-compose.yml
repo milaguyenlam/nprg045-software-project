@@ -1,0 +1,68 @@
+version: "3.8"
+
+volumes:
+  database:
+  logs:
+  elasticsearch:
+
+services:
+  database:
+    container_name: database
+    build: ./../../Database
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD
+    ports:
+      - ${MSSQL_PORT}:1433
+    volumes:
+      - database:/var/opt/mssql
+      - logs:/var/opt/mssql/log
+
+  backend:
+    container_name: backend
+    build: ./../../Backend
+    environment:
+      - ASPNETCORE_ENVIRONMENT
+      - ASPNETCORE_HTTPS_PORT=443
+      - ASPNETCORE_URLS=http://+;
+      - CONNECTION_STRING
+    ports:
+      - ${HTTP_PORT}:80
+      - ${HTTPS_PORT}:443
+    volumes:
+      - logs:/app/Logs
+    restart: on-failure
+
+  crawler:
+    container_name: crawler
+    build: ./../../Crawler
+    environment:
+      - API_URL=http://backend:80/api/import/addoffers
+    volumes:
+      - logs:/_server/_logs
+      
+  elasticsearch:
+    container_name: elasticsearch
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.6.0
+    environment:
+      - "node.name=es-node"
+      - "discovery.type=single-node"
+      - "cluster.name=app-search-docker-cluster"
+      - "bootstrap.memory_lock=true"
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - elasticsearch:/usr/share/elasticsearch/data
+
+  appsearch:
+    container_name: appsearch
+    image: docker.elastic.co/app-search/app-search:7.6.0
+    environment:
+      - "elasticsearch.host=http://elasticsearch:9200"
+      - "allow_es_settings_modification=true"
+      - "JAVA_OPTS=-Xms2g -Xmx2g"
+    ports:
+      - 3002:3002

@@ -1,0 +1,152 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "title": "Offer",
+    "type": "object",
+    "properties": {
+        "Price": {
+            "type": "number"
+        },
+        "Product": {
+            "title": "Product",
+            "type": "object",
+            "properties": {
+                "Name": {
+                    "type": "string"
+                },
+                "Producer": {
+                    "title": "Producer",
+                    "type": "object",
+                    "properties": {
+                        "Name": {
+                            "type": "string"
+                        },
+                        "ThumbnailPath": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false,
+                    "required": ["Name"]
+                },
+                "Categories": {
+                    "type": "array",
+                    "items": {
+                        "title": "Category",
+                        "type": "object",
+                        "properties": {
+                            "Name": {
+                                "type": "string"
+                            }
+                        },
+                        "additionalProperties": false,
+                        "required": ["Name"]
+                    }
+                },
+                "Description": {
+                    "type": "string"
+                },
+                "EAN": {
+                    "type": "string"
+                },
+                "PicturePath": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": ["Name", "Categories"]
+        },
+        "Store": {
+            "title": "Store",
+            "type": "object",
+            "properties": {
+                "Vendor": {
+                    "title": "Vendor",
+                    "type": "object",
+                    "properties": {
+                        "Name": {
+                            "type": "string"
+                        },
+                        "ThumbnailPath": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false,
+                    "required": ["Name"]
+                },
+                "ContactDetails": {
+                    "title": "ContactDetails",
+                    "type": "object",
+                    "properties": {
+                        "Geolocation": {
+                            "title": "Geolocation",
+                            "type": "object",
+                            "properties": {
+                                "Latitude": {
+                                    "type": "number"
+                                },
+                                "Longitude": {
+                                    "type": "number"
+                                }
+                            },
+                            "additionalProperties": false,
+                            "required": ["Latitude", "Longitude"]
+                        },
+                        "Email": {
+                            "type": "string"
+                        },
+                        "Street": {
+                            "type": "string"
+                        },
+                        "City": {
+                            "type": "string"
+                        },
+                        "PostCode": {
+                            "type": "string"
+                        },
+                        "Phone": {
+                            "type": "string"
+                        },
+                        "Ico": {
+                            "type": "string"
+                        },
+                        "Country": {
+                            "type": "string"
+                        }
+                    },
+                    "additionalProperties": false,
+                    "required": ["Geolocation"]
+                },
+                "OpeningHours": {
+                    "type": "string"
+                }
+            },
+            "additionalProperties": false,
+            "required": ["Vendor", "ContactDetails"]
+        },
+        "FromDate": {
+            "type": "string"
+        },
+        "ToDate": {
+            "type": "string"
+        },
+        "Description": {
+            "type": "string"
+        },
+        "DiscountRate": {
+            "type": "number"
+        },
+        "InStockCount": {
+            "type": "integer"
+        },
+        "Source": {
+            "type": "string"
+        },
+        "ScrapeTime": {
+            "type": "string"
+        },
+        "IsTaxed": {
+            "type": "boolean"
+        }
+    },
+    "additionalProperties": false,
+    "required": ["Price", "Source", "Product", "Store"]
+}

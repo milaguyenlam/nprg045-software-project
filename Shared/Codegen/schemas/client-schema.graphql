@@ -1,0 +1,166 @@
+type ProducerDTO {
+  name: String!
+  thumbnailPath: String
+}
+
+type CategoryDTO {
+  id: Int!
+  name: String!
+  picturePath: String
+  parentId: Int
+  containsProducts: Boolean!
+}
+
+type ActiveOfferDTO {
+  id: Int!
+  fromDate: String!
+  toDate: String!
+  price: Float!
+  discountRate: Float
+  inStockCount: Int
+  isTaxed: Boolean
+  product: ProductDTO!
+  store: StoreDTO!
+  description: String
+}
+
+type StoreDTO {
+  vendor: VendorDTO!
+  openingHours: String
+  contactDetails: ContactDetailsDTO!
+}
+
+type VendorDTO {
+  id: Int!
+  name: String!
+  thumbnailPath: String
+  containsProducts: Boolean!
+}
+
+type ProductDTO {
+  id: Int!
+  name: String!
+  description: String
+  picturePath: String
+  categories: [CategoryDTO!]!
+  ean: String
+  producer: ProducerDTO
+  activeOffers: [ActiveOfferDTO!]!
+}
+
+type ContactDetailsDTO {
+  phone: String
+  email: String
+  street: String
+  city: String
+  postCode: String
+  geolocation: GeolocationDTO
+  ico: String
+  country: String
+}
+
+type GeolocationDTO {
+  longitude: Float!
+  latitude: Float!
+}
+
+type SearchResultDTO {
+  vendors: [VendorDTO!]!
+  categories: [CategoryDTO!]!
+  products: [ProductDTO!]!
+}
+
+input RegisterFormInput {
+  username: String!
+  email: String!
+  password: String!
+}
+
+type AuthResponse {
+  status: Boolean!
+  message: String!
+  token: String
+}
+
+type UserDTO {
+  username: String!
+  email: String!
+}
+
+enum FilterType {
+  ALL
+  VENDOR
+  CATEGORY
+}
+
+enum ShoppingListItemState {
+  NEW
+  DONE
+}
+
+type ShoppingListItemDTO {
+  id: Int!
+  state: ShoppingListItemState!
+  activeOffer: ActiveOfferDTO!
+  quantity: Int!
+}
+
+type ShoppingListDTO {
+  id: Int!
+  closeTime: String
+}
+
+type FavouriteListItemDTO {
+  id: Int!
+  product: ProductDTO!
+}
+
+input ShoppingListItemAddInput {
+  activeOfferId: Int!
+  quantity: Int!
+}
+
+input ShoppingListItemUpdateInput {
+  id: Int!
+  quantity: Int
+  state: ShoppingListItemState
+}
+
+type Query {
+  activeProducts(
+    offset: Int!
+    limit: Int!
+    vendorId: Int
+    categoryIds: [Int!]
+    filterType: FilterType!
+  ): [ProductDTO!]!
+  product(id: Int!): ProductDTO
+  vendors: [VendorDTO!]!
+  searchResult(text: String!): SearchResultDTO!
+  authenticate(email: String!, password: String!): AuthResponse!
+  currentUser: UserDTO!
+  topLevelCategories: [CategoryDTO!]!
+  subCategories(categoryId: Int!): [CategoryDTO!]!
+  categories(productId: Int!): [CategoryDTO!]!
+  shoppingListItems(listId: Int): [ShoppingListItemDTO!]!
+  shoppingLists: [ShoppingListDTO!]!
+  favouriteList: [FavouriteListItemDTO!]!
+}
+
+type Mutation {
+  register(form: RegisterFormInput!): AuthResponse!
+  addToShoppingList(item: ShoppingListItemAddInput!): ShoppingListItemDTO!
+  updateShoppingListItem(
+    item: ShoppingListItemUpdateInput!
+  ): ShoppingListItemDTO!
+  removeFromShoppingList(itemId: Int!): ShoppingListItemDTO!
+  removeShoppingList(shoppingListId: Int!): ShoppingListDTO!
+  archiveShoppingList: ShoppingListDTO!
+  addToFavouriteList(productId: Int!): FavouriteListItemDTO!
+  removeFromFavouriteList(productId: Int!): FavouriteListItemDTO!
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}

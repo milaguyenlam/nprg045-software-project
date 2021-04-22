@@ -1,0 +1,22 @@
+query GetSelectionItems {
+  topLevelCategories {
+    ...Category_GetSelectionItems
+  }
+  vendors {
+    ...Vendor_GetSelectionItems
+  }
+}
+
+fragment Vendor_GetSelectionItems on VendorDTO {
+  id
+  name
+  thumbnailPath
+  containsProducts
+}
+
+fragment Category_GetSelectionItems on CategoryDTO {
+  id
+  name
+  picturePath
+  containsProducts
+}

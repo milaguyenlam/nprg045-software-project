@@ -1,0 +1,330 @@
+[
+    {
+        "Name": "Ovoce",
+        "Url": "https://sortiment.makro.cz/cs/cerstve-chlazene/ovoce/7078c"
+    },
+    {
+        "Name": "Zelenina",
+        "Url": "https://sortiment.makro.cz/cs/cerstve-chlazene/zelenina/7080c"
+    },
+    {
+        "Name": "Mléčné výrobky, vejce",
+        "Url": "https://sortiment.makro.cz/cs/cerstve-chlazene/mlecne-vyrobky-vejce/7077c"
+    },
+    {
+        "Name": "Maso",
+        "Url": "https://sortiment.makro.cz/cs/cerstve-chlazene/maso/7076c"
+    },
+    {
+        "Name": "Masné výrobky",
+        "Url": "https://sortiment.makro.cz/cs/cerstve-chlazene/masne-vyrobky/7075c"
+    },
+    {
+        "Name": "Ryby, plody moře",
+        "Url": "https://sortiment.makro.cz/cs/cerstve-chlazene/ryby-plody-more/7079c"
+    },
+    {
+        "Name": "Lahůdky",
+        "Url": "https://sortiment.makro.cz/cs/cerstve-chlazene/lahudky/7074c"
+    },
+    {
+        "Name": "Pečivo",
+        "Url": "https://sortiment.makro.cz/cs/pecivo/pecivo/7100c"
+    },
+    {
+        "Name": "Rozpékané",
+        "Url": "https://sortiment.makro.cz/cs/pecivo/rozpekane/7101c"
+    },
+    {
+        "Name": "Trvanlivé",
+        "Url": "https://sortiment.makro.cz/cs/pecivo/trvanlive/7103c"
+    },
+    {
+        "Name": "Chlazené",
+        "Url": "https://sortiment.makro.cz/cs/pecivo/chlazene/7102c"
+    },
+    {
+        "Name": "Mražené",
+        "Url": "https://sortiment.makro.cz/cs/pecivo/mrazene/9278c"
+    },
+    {
+        "Name": "Ovoce, zelenina",
+        "Url": "https://sortiment.makro.cz/cs/mrazene/ovoce-zelenina/7085c"
+    },
+    {
+        "Name": "Pečivo",
+        "Url": "https://sortiment.makro.cz/cs/mrazene/pecivo/7086c"
+    },
+    {
+        "Name": "Maso",
+        "Url": "https://sortiment.makro.cz/cs/mrazene/maso/7083c"
+    },
+    {
+        "Name": "Ryby",
+        "Url": "https://sortiment.makro.cz/cs/mrazene/ryby/7087c"
+    },
+    {
+        "Name": "Krevety, plody moře",
+        "Url": "https://sortiment.makro.cz/cs/mrazene/krevety-plody-more/7084c"
+    },
+    {
+        "Name": "Hotová jídla",
+        "Url": "https://sortiment.makro.cz/cs/mrazene/hotova-jidla/7082c"
+    },
+    {
+        "Name": "Bramborové výrobky",
+        "Url": "https://sortiment.makro.cz/cs/mrazene/bramborove-vyrobky/7081c"
+    },
+    {
+        "Name": "Těsta",
+        "Url": "https://sortiment.makro.cz/cs/mrazene/testa/7088c"
+    },
+    {
+        "Name": "Finger Food",
+        "Url": "https://sortiment.makro.cz/cs/mrazene/finger-food/10047c"
+    },
+    {
+        "Name": "Speciální",
+        "Url": "https://sortiment.makro.cz/cs/mrazene/specialni/10447c"
+    },
+    {
+        "Name": "Cereálie, müsli",
+        "Url": "https://sortiment.makro.cz/cs/trvanlive/cerealie-musli/7090c"
+    },
+    {
+        "Name": "Cukrovinky, slané snacky",
+        "Url": "https://sortiment.makro.cz/cs/trvanlive/cukrovinky-slane-snacky/7091c"
+    },
+    {
+        "Name": "Mouka, pečení, strouhanka",
+        "Url": "https://sortiment.makro.cz/cs/trvanlive/mouka-peceni-strouhanka/7097c"
+    },
+    {
+        "Name": "Olej, ocet, cukr, sůl",
+        "Url": "https://sortiment.makro.cz/cs/trvanlive/olej-ocet-cukr-sul/7098c"
+    },
+    {
+        "Name": "Těstoviny, rýže, luštěniny, obiloviny",
+        "Url": "https://sortiment.makro.cz/cs/trvanlive/testoviny-ryze-lusteniny-obiloviny/7099c"
+    },
+    {
+        "Name": "Suché plody, semena",
+        "Url": "https://sortiment.makro.cz/cs/trvanlive/suche-plody-semena/9672c"
+    },
+    {
+        "Name": "Konzervované potraviny, hotová jídla, směsi",
+        "Url": "https://sortiment.makro.cz/cs/trvanlive/konzervovane-potraviny-hotova-jidla-smesi/7095c"
+    },
+    {
+        "Name": "Džemy, medy, sladké pomazánky",
+        "Url": "https://sortiment.makro.cz/cs/trvanlive/dzemy-medy-sladke-pomazanky/7094c"
+    },
+    {
+        "Name": "Dressingy, omáčky, dochucovadla",
+        "Url": "https://sortiment.makro.cz/cs/trvanlive/dressingy-omacky-dochucovadla/7093c"
+    },
+    {
+        "Name": "Koření, ochucovadla",
+        "Url": "https://sortiment.makro.cz/cs/trvanlive/koreni-ochucovadla/7096c"
+    },
+    {
+        "Name": "Čaj, káva, kakao",
+        "Url": "https://sortiment.makro.cz/cs/trvanlive/caj-kava-kakao/9279c"
+    },
+    {
+        "Name": "Domácí mazlíčci",
+        "Url": "https://sortiment.makro.cz/cs/trvanlive/domaci-mazlicci/7092c"
+    },
+    {
+        "Name": "Alkohol",
+        "Url": "https://sortiment.makro.cz/cs/napoje-tabak/alkohol/7104c"
+    },
+    {
+        "Name": "Pivo",
+        "Url": "https://sortiment.makro.cz/cs/napoje-tabak/pivo/7106c"
+    },
+    {
+        "Name": "Vína",
+        "Url": "https://sortiment.makro.cz/cs/napoje-tabak/vina/7109c"
+    },
+    {
+        "Name": "Nealko",
+        "Url": "https://sortiment.makro.cz/cs/napoje-tabak/nealko/7105c"
+    },
+    {
+        "Name": "Teplé nápoje",
+        "Url": "https://sortiment.makro.cz/cs/napoje-tabak/teple-napoje/7108c"
+    },
+    {
+        "Name": "Toaletní papír, papírové utěrky, ubrousky",
+        "Url": "https://sortiment.makro.cz/cs/drogerie-kosmetika/toaletni-papir-papirove-uterky-ubrousky/7111c"
+    },
+    {
+        "Name": "Ústní hygiena",
+        "Url": "https://sortiment.makro.cz/cs/drogerie-kosmetika/ustni-hygiena/7121c"
+    },
+    {
+        "Name": "Pro ženy",
+        "Url": "https://sortiment.makro.cz/cs/drogerie-kosmetika/pro-zeny/7120c"
+    },
+    {
+        "Name": "Pro muže",
+        "Url": "https://sortiment.makro.cz/cs/drogerie-kosmetika/pro-muze/7119c"
+    },
+    {
+        "Name": "Péče o dítě",
+        "Url": "https://sortiment.makro.cz/cs/drogerie-kosmetika/pece-o-dite/7113c"
+    },
+    {
+        "Name": "Péče o tělo",
+        "Url": "https://sortiment.makro.cz/cs/drogerie-kosmetika/pece-o-telo/7115c"
+    },
+    {
+        "Name": "Péče o vlasy",
+        "Url": "https://sortiment.makro.cz/cs/drogerie-kosmetika/pece-o-vlasy/7116c"
+    },
+    {
+        "Name": "Péče o zdraví",
+        "Url": "https://sortiment.makro.cz/cs/drogerie-kosmetika/pece-o-zdravi/7117c"
+    },
+    {
+        "Name": "Pro hotely, restaurace",
+        "Url": "https://sortiment.makro.cz/cs/drogerie-kosmetika/pro-hotely-restaurace/7118c"
+    },
+    {
+        "Name": "Úklid, péče o domácnost",
+        "Url": "https://sortiment.makro.cz/cs/drogerie-kosmetika/uklid-pece-o-domacnost/7114c"
+    },
+    {
+        "Name": "Svíčky",
+        "Url": "https://sortiment.makro.cz/cs/drogerie-kosmetika/svicky/9220c"
+    },
+    {
+        "Name": "Kuchyňské potřeby",
+        "Url": "https://sortiment.makro.cz/cs/gastro-vybaveni/kuchynske-potreby/9364c"
+    },
+    {
+        "Name": "Jednorázové kuchyňské potřeby",
+        "Url": "https://sortiment.makro.cz/cs/gastro-vybaveni/jednorazove-kuchynske-potreby/9363c"
+    },
+    {
+        "Name": "Stolování a servírování",
+        "Url": "https://sortiment.makro.cz/cs/gastro-vybaveni/stolovani-a-servirovani/9367c"
+    },
+    {
+        "Name": "Pečení, vaření, smažení",
+        "Url": "https://sortiment.makro.cz/cs/gastro-vybaveni/peceni-vareni-smazeni/9365c"
+    },
+    {
+        "Name": "Uchování potravin",
+        "Url": "https://sortiment.makro.cz/cs/gastro-vybaveni/uchovani-potravin/9369c"
+    },
+    {
+        "Name": "Pracovní oblečení a pomůcky",
+        "Url": "https://sortiment.makro.cz/cs/gastro-vybaveni/pracovni-obleceni-a-pomucky/9366c"
+    },
+    {
+        "Name": "Gastro zařízení",
+        "Url": "https://sortiment.makro.cz/cs/gastro-vybaveni/gastro-zarizeni/9884c"
+    },
+    {
+        "Name": "Textil, matrace",
+        "Url": "https://sortiment.makro.cz/cs/gastro-vybaveni/textil-matrace/9368c"
+    },
+    {
+        "Name": "Papír",
+        "Url": "https://sortiment.makro.cz/cs/kancelar/papir/9063c"
+    },
+    {
+        "Name": "Prezentace",
+        "Url": "https://sortiment.makro.cz/cs/kancelar/prezentace/9064c"
+    },
+    {
+        "Name": "Třídění, archivace",
+        "Url": "https://sortiment.makro.cz/cs/kancelar/trideni-archivace/9067c"
+    },
+    {
+        "Name": "Balící potřeby",
+        "Url": "https://sortiment.makro.cz/cs/kancelar/balici-potreby/9058c"
+    },
+    {
+        "Name": "Kancelářské potřeby",
+        "Url": "https://sortiment.makro.cz/cs/kancelar/kancelarske-potreby/9060c"
+    },
+    {
+        "Name": "Kancelářská technika",
+        "Url": "https://sortiment.makro.cz/cs/kancelar/kancelarska-technika/9059c"
+    },
+    {
+        "Name": "Kancelářský nábytek",
+        "Url": "https://sortiment.makro.cz/cs/kancelar/kancelarsky-nabytek/9061c"
+    },
+    {
+        "Name": "Přepravky, regály, úložné boxy",
+        "Url": "https://sortiment.makro.cz/cs/kancelar/prepravky-regaly-ulozne-boxy/9065c"
+    },
+    {
+        "Name": "Gastro zařízení",
+        "Url": "https://sortiment.makro.cz/cs/elektro/gastro-zarizeni/9360c"
+    },
+    {
+        "Name": "Velké spotřebiče",
+        "Url": "https://sortiment.makro.cz/cs/elektro/velke-spotrebice/9361c"
+    },
+    {
+        "Name": "Malé spotřebiče",
+        "Url": "https://sortiment.makro.cz/cs/elektro/male-spotrebice/9731c"
+    },
+    {
+        "Name": "Elektronika",
+        "Url": "https://sortiment.makro.cz/cs/elektro/elektronika/9721c"
+    },
+    {
+        "Name": "Elektro příslušenství",
+        "Url": "https://sortiment.makro.cz/cs/elektro/elektro-prislusenstvi/9342c"
+    },
+    {
+        "Name": "Kuchyně",
+        "Url": "https://sortiment.makro.cz/cs/domacnost/kuchyne/9357c"
+    },
+    {
+        "Name": "Jídelna",
+        "Url": "https://sortiment.makro.cz/cs/domacnost/jidelna/9356c"
+    },
+    {
+        "Name": "Skladování, transport",
+        "Url": "https://sortiment.makro.cz/cs/domacnost/skladovani-transport/9358c"
+    },
+    {
+        "Name": "Balení",
+        "Url": "https://sortiment.makro.cz/cs/domacnost/baleni/9353c"
+    },
+    {
+        "Name": "Domácí potřeby, úklid",
+        "Url": "https://sortiment.makro.cz/cs/domacnost/domaci-potreby-uklid/9354c"
+    },
+    {
+        "Name": "Textil, matrace",
+        "Url": "https://sortiment.makro.cz/cs/domacnost/textil-matrace/9359c"
+    },
+    {
+        "Name": "Zahradní nábytek",
+        "Url": "https://sortiment.makro.cz/cs/sezona/zahradni-nabytek/9253c"
+    },
+    {
+        "Name": "Grily a příslušenství",
+        "Url": "https://sortiment.makro.cz/cs/sezona/grily-a-prislusenstvi/9251c"
+    },
+    {
+        "Name": "Klimatizace, topení",
+        "Url": "https://sortiment.makro.cz/cs/sezona/klimatizace-topeni/10476c"
+    },
+    {
+        "Name": "Trvanlivé",
+        "Url": "https://sortiment.makro.cz/cs/exkluzivne/trvanlive/10083c"
+    },
+    {
+        "Name": "Nápoje, tabák",
+        "Url": "https://sortiment.makro.cz/cs/exkluzivne/napoje-tabak/10086c"
+    }
+]

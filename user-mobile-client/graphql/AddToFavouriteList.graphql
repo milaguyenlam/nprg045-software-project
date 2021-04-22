@@ -1,0 +1,26 @@
+mutation AddToFavouriteList($productId: Int!) {
+  addToFavouriteList(productId: $productId) {
+    ...FavouriteListItem_AddToFavouriteList
+  }
+}
+
+fragment FavouriteListItem_AddToFavouriteList on FavouriteListItemDTO {
+  id
+  product {
+    ...Product_AddToFavouriteList
+  }
+}
+
+fragment Product_AddToFavouriteList on ProductDTO {
+  id
+  picturePath
+  name
+  activeOffers {
+    ...ActiveOffer_AddToFavouriteList
+  }
+}
+
+fragment ActiveOffer_AddToFavouriteList on ActiveOfferDTO {
+  price
+  discountRate
+}

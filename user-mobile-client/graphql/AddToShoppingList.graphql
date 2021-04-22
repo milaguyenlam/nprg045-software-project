@@ -1,0 +1,28 @@
+mutation AddToShoppingList($item: ShoppingListItemAddInput!) {
+  addToShoppingList(item: $item) {
+    ...ShoppingListItem_AddToShoppingList
+  }
+}
+
+fragment ShoppingListItem_AddToShoppingList on ShoppingListItemDTO {
+  id
+  activeOffer {
+    ...ActiveOffer_AddToShoppingList
+  }
+  quantity
+}
+
+fragment ActiveOffer_AddToShoppingList on ActiveOfferDTO {
+  price
+  discountRate
+  description
+  product {
+    ...Product_AddToShoppingList
+  }
+}
+
+fragment Product_AddToShoppingList on ProductDTO {
+  id
+  picturePath
+  name
+}

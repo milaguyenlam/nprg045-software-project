@@ -1,0 +1,36 @@
+query GetSearchResult($text: String!) {
+  searchResult(text: $text) {
+    ...SearchResult_GetSearchResult
+  }
+}
+
+fragment SearchResult_GetSearchResult on SearchResultDTO {
+  products {
+    ...Product_GetSearchResult
+  }
+  categories {
+    ...Category_GetSearchResult
+  }
+  vendors {
+    ...Vendor_GetSearchResult
+  }
+}
+
+fragment Product_GetSearchResult on ProductDTO {
+  id
+  name
+  picturePath
+}
+
+fragment Category_GetSearchResult on CategoryDTO {
+  id
+  parentId
+  name
+  picturePath
+}
+
+fragment Vendor_GetSearchResult on VendorDTO {
+  id
+  name
+  thumbnailPath
+}

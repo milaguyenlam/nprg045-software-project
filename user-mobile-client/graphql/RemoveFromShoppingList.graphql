@@ -1,0 +1,9 @@
+mutation RemoveFromShoppingList($itemId: Int!) {
+  removeFromShoppingList(itemId: $itemId) {
+    ...ShoppingListItem_RemoveFromShoppingList
+  }
+}
+
+fragment ShoppingListItem_RemoveFromShoppingList on ShoppingListItemDTO {
+  id
+}

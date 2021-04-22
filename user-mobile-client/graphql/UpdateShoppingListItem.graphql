@@ -1,0 +1,10 @@
+mutation UpdateShoppingListItem($item: ShoppingListItemUpdateInput!) {
+  updateShoppingListItem(item: $item) {
+    ...ShoppingListItem_UpdateShoppingListItem
+  }
+}
+
+fragment ShoppingListItem_UpdateShoppingListItem on ShoppingListItemDTO {
+  id
+  quantity
+}

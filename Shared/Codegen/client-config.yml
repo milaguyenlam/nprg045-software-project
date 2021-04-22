@@ -1,0 +1,24 @@
+overwrite: true
+schema: "schemas/client-schema.graphql"
+documents: "./../../user-mobile-client/graphql/*.graphql"
+generates:
+  ./../../user-mobile-client/services/generated.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+    config:
+      omitOperationSuffix: true
+      exportFragmentSpreadSubTypes: true
+      withHooks: true
+
+  ./../../Backend/Models/Client/Types.cs:
+    plugins:
+      - c-sharp
+    config:
+      className: Types
+      listType: IEnumerable
+      namespaceName: Backend.Models.Client
+      skipTypename: false
+
+

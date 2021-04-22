@@ -1,0 +1,11 @@
+query Authenticate($email: String!, $password: String!) {
+  authenticate(email: $email, password: $password) {
+    ...AuthResponse_Authenticate
+  }
+}
+
+fragment AuthResponse_Authenticate on AuthResponse {
+  status
+  message
+  token
+}

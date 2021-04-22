@@ -1,0 +1,47 @@
+query GetProduct($id: Int!) {
+  product(id: $id) {
+    ...Product_GetProduct
+  }
+}
+
+fragment Product_GetProduct on ProductDTO {
+  id
+  name
+  description
+  picturePath
+  categories {
+    ...Category_GetProduct
+  }
+  activeOffers {
+    ...ActiveOffer_GetProduct
+  }
+}
+
+fragment Category_GetProduct on CategoryDTO {
+  id
+  name
+}
+
+fragment ActiveOffer_GetProduct on ActiveOfferDTO {
+  id
+  toDate
+  price
+  discountRate
+  inStockCount
+  store {
+    ...Store_GetProduct
+  }
+  description
+}
+
+fragment Store_GetProduct on StoreDTO {
+  vendor {
+    ...Vendor_GetProduct
+  }
+}
+
+fragment Vendor_GetProduct on VendorDTO {
+  id
+  name
+  thumbnailPath
+}

@@ -1,0 +1,12 @@
+query GetSubCategories($categoryId: Int!) {
+  subCategories(categoryId: $categoryId) {
+    ...Category_GetSubCategories
+  }
+}
+
+fragment Category_GetSubCategories on CategoryDTO {
+  id
+  name
+  picturePath
+  containsProducts
+}

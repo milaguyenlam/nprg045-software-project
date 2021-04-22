@@ -1,0 +1,314 @@
+[
+    {
+        "Store": {
+            "Vendor": {
+                "Name": "MAKRO Cash & Carry ČR s.r.o.",
+                "ThumbnailPath": "https://www.makro.cz/../Sublayouts/Shared/Controls/Components/Headers/www.makro.cz/~/media/makro-logo-2019.svg"
+            },
+            "ContactDetails": {
+                "Geolocation": {
+                    "Latitude": 49.1622661,
+                    "Longitude": 16.6393073
+                },
+                "Email": null,
+                "Street": null,
+                "City": "Brno",
+                "PostCode": "620 00",
+                "Phone": "281 083 083",
+                "Ico": null,
+                "Country": "Česká republika"
+            },
+            "OpeningHours": "Pondělí-Neděle, 08:00-20:00"
+        },
+        "Name": "Makro Brno",
+        "Id": "5"
+    },
+    {
+        "Store": {
+            "Vendor": {
+                "Name": "MAKRO Cash & Carry ČR s.r.o.",
+                "ThumbnailPath": "https://www.makro.cz/../Sublayouts/Shared/Controls/Components/Headers/www.makro.cz/~/media/makro-logo-2019.svg"
+            },
+            "ContactDetails": {
+                "Geolocation": {
+                    "Latitude": 49.7753297,
+                    "Longitude": 18.2683398
+                },
+                "Email": null,
+                "Street": null,
+                "City": "Ostrava",
+                "PostCode": "720 00",
+                "Phone": "281 083 083",
+                "Ico": null,
+                "Country": "Česká republika"
+            },
+            "OpeningHours": "Pondělí-Neděle, 08:00-20:00"
+        },
+        "Name": "Makro Ostrava",
+        "Id": "6"
+    },
+    {
+        "Store": {
+            "Vendor": {
+                "Name": "MAKRO Cash & Carry ČR s.r.o.",
+                "ThumbnailPath": "https://www.makro.cz/../Sublayouts/Shared/Controls/Components/Headers/www.makro.cz/~/media/makro-logo-2019.svg"
+            },
+            "ContactDetails": {
+                "Geolocation": {
+                    "Latitude": 50.0044031,
+                    "Longitude": 14.5768838
+                },
+                "Email": null,
+                "Street": null,
+                "City": "Praha - Průhonice",
+                "PostCode": "251 01",
+                "Phone": "281 083 083",
+                "Ico": null,
+                "Country": "Česká republika"
+            },
+            "OpeningHours": "Pondělí-Neděle, 08:00-20:00"
+        },
+        "Name": "Makro Praha - Průhonice",
+        "Id": "7"
+    },
+    {
+        "Store": {
+            "Vendor": {
+                "Name": "MAKRO Cash & Carry ČR s.r.o.",
+                "ThumbnailPath": "https://www.makro.cz/../Sublayouts/Shared/Controls/Components/Headers/www.makro.cz/~/media/makro-logo-2019.svg"
+            },
+            "ContactDetails": {
+                "Geolocation": {
+                    "Latitude": 50.1119941,
+                    "Longitude": 14.5781588
+                },
+                "Email": null,
+                "Street": null,
+                "City": "Praha - Černý Most",
+                "PostCode": "193 00",
+                "Phone": "281 083 083",
+                "Ico": null,
+                "Country": "Česká republika"
+            },
+            "OpeningHours": "Pondělí-Neděle, 08:00-20:00"
+        },
+        "Name": "Makro Praha - Černý Most",
+        "Id": "8"
+    },
+    {
+        "Store": {
+            "Vendor": {
+                "Name": "MAKRO Cash & Carry ČR s.r.o.",
+                "ThumbnailPath": "https://www.makro.cz/../Sublayouts/Shared/Controls/Components/Headers/www.makro.cz/~/media/makro-logo-2019.svg"
+            },
+            "ContactDetails": {
+                "Geolocation": {
+                    "Latitude": 50.0416366,
+                    "Longitude": 14.3154017
+                },
+                "Email": null,
+                "Street": null,
+                "City": "Praha - Stodůlky",
+                "PostCode": "155 00",
+                "Phone": "281 083 083",
+                "Ico": null,
+                "Country": "Česká republika"
+            },
+            "OpeningHours": "Pondělí-Neděle, 08:00-20:00"
+        },
+        "Name": "Makro Praha - Stodůlky",
+        "Id": "9"
+    },
+    {
+        "Store": {
+            "Vendor": {
+                "Name": "MAKRO Cash & Carry ČR s.r.o.",
+                "ThumbnailPath": "https://www.makro.cz/../Sublayouts/Shared/Controls/Components/Headers/www.makro.cz/~/media/makro-logo-2019.svg"
+            },
+            "ContactDetails": {
+                "Geolocation": {
+                    "Latitude": 50.1792594,
+                    "Longitude": 15.8007429
+                },
+                "Email": null,
+                "Street": null,
+                "City": "Hradec Králové",
+                "PostCode": "503 32",
+                "Phone": "281 083 083",
+                "Ico": null,
+                "Country": "Česká republika"
+            },
+            "OpeningHours": "Pondělí-Neděle, 08:00-20:00"
+        },
+        "Name": "Makro Hradec Králové",
+        "Id": "10"
+    },
+    {
+        "Store": {
+            "Vendor": {
+                "Name": "MAKRO Cash & Carry ČR s.r.o.",
+                "ThumbnailPath": "https://www.makro.cz/../Sublayouts/Shared/Controls/Components/Headers/www.makro.cz/~/media/makro-logo-2019.svg"
+            },
+            "ContactDetails": {
+                "Geolocation": {
+                    "Latitude": 50.651176,
+                    "Longitude": 14.0124802
+                },
+                "Email": null,
+                "Street": null,
+                "City": "Ústí nad Labem",
+                "PostCode": "400 01",
+                "Phone": "281 083 083",
+                "Ico": null,
+                "Country": "Česká republika"
+            },
+            "OpeningHours": "Pondělí-Neděle, 08:00-20:00"
+        },
+        "Name": "Makro Ústí nad Labem",
+        "Id": "11"
+    },
+    {
+        "Store": {
+            "Vendor": {
+                "Name": "MAKRO Cash & Carry ČR s.r.o.",
+                "ThumbnailPath": "https://www.makro.cz/../Sublayouts/Shared/Controls/Components/Headers/www.makro.cz/~/media/makro-logo-2019.svg"
+            },
+            "ContactDetails": {
+                "Geolocation": {
+                    "Latitude": 49.59133629999999,
+                    "Longitude": 17.3379371
+                },
+                "Email": null,
+                "Street": null,
+                "City": "Olomouc",
+                "PostCode": "783 53",
+                "Phone": "281 083 083",
+                "Ico": null,
+                "Country": "Česká republika"
+            },
+            "OpeningHours": "Pondělí-Neděle, 08:00-20:00"
+        },
+        "Name": "Makro Olomouc",
+        "Id": "12"
+    },
+    {
+        "Store": {
+            "Vendor": {
+                "Name": "MAKRO Cash & Carry ČR s.r.o.",
+                "ThumbnailPath": "https://www.makro.cz/../Sublayouts/Shared/Controls/Components/Headers/www.makro.cz/~/media/makro-logo-2019.svg"
+            },
+            "ContactDetails": {
+                "Geolocation": {
+                    "Latitude": 49.0165421,
+                    "Longitude": 14.4912243
+                },
+                "Email": null,
+                "Street": null,
+                "City": "České Budějovice",
+                "PostCode": "370 01",
+                "Phone": "281 083 083",
+                "Ico": null,
+                "Country": "Česká republika"
+            },
+            "OpeningHours": "Pondělí-Neděle, 08:00-20:00"
+        },
+        "Name": "Makro České Budějovice",
+        "Id": "13"
+    },
+    {
+        "Store": {
+            "Vendor": {
+                "Name": "MAKRO Cash & Carry ČR s.r.o.",
+                "ThumbnailPath": "https://www.makro.cz/../Sublayouts/Shared/Controls/Components/Headers/www.makro.cz/~/media/makro-logo-2019.svg"
+            },
+            "ContactDetails": {
+                "Geolocation": {
+                    "Latitude": 49.72862989999999,
+                    "Longitude": 13.3206945
+                },
+                "Email": null,
+                "Street": null,
+                "City": "Plzeň",
+                "PostCode": "301 00",
+                "Phone": "281 083 083",
+                "Ico": null,
+                "Country": "Česká republika"
+            },
+            "OpeningHours": "Pondělí-Neděle, 08:00-20:00"
+        },
+        "Name": "Makro Plzeň",
+        "Id": "14"
+    },
+    {
+        "Store": {
+            "Vendor": {
+                "Name": "MAKRO Cash & Carry ČR s.r.o.",
+                "ThumbnailPath": "https://www.makro.cz/../Sublayouts/Shared/Controls/Components/Headers/www.makro.cz/~/media/makro-logo-2019.svg"
+            },
+            "ContactDetails": {
+                "Geolocation": {
+                    "Latitude": 50.7342404,
+                    "Longitude": 15.0500624
+                },
+                "Email": null,
+                "Street": null,
+                "City": "Liberec",
+                "PostCode": "463 12",
+                "Phone": "281 083 083",
+                "Ico": null,
+                "Country": "Česká republika"
+            },
+            "OpeningHours": "Pondělí-Neděle, 08:00-20:00"
+        },
+        "Name": "Makro Liberec",
+        "Id": "15"
+    },
+    {
+        "Store": {
+            "Vendor": {
+                "Name": "MAKRO Cash & Carry ČR s.r.o.",
+                "ThumbnailPath": "https://www.makro.cz/../Sublayouts/Shared/Controls/Components/Headers/www.makro.cz/~/media/makro-logo-2019.svg"
+            },
+            "ContactDetails": {
+                "Geolocation": {
+                    "Latitude": 49.2030763,
+                    "Longitude": 17.5653348
+                },
+                "Email": null,
+                "Street": null,
+                "City": "Zlín",
+                "PostCode": "763 02",
+                "Phone": "281 083 083",
+                "Ico": null,
+                "Country": "Česká republika"
+            },
+            "OpeningHours": "Pondělí-Neděle, 08:00-20:00"
+        },
+        "Name": "Makro Zlín",
+        "Id": "16"
+    },
+    {
+        "Store": {
+            "Vendor": {
+                "Name": "MAKRO Cash & Carry ČR s.r.o.",
+                "ThumbnailPath": "https://www.makro.cz/../Sublayouts/Shared/Controls/Components/Headers/www.makro.cz/~/media/makro-logo-2019.svg"
+            },
+            "ContactDetails": {
+                "Geolocation": {
+                    "Latitude": 50.2191172,
+                    "Longitude": 12.8024332
+                },
+                "Email": null,
+                "Street": null,
+                "City": "Karlovy Vary",
+                "PostCode": "362 11",
+                "Phone": "281 083 083",
+                "Ico": null,
+                "Country": "Česká republika"
+            },
+            "OpeningHours": "Pondělí-Neděle, 08:00-20:00"
+        },
+        "Name": "Makro Karlovy Vary",
+        "Id": "17"
+    }
+]

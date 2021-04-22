@@ -1,0 +1,10 @@
+query GetCurrentUser {
+  currentUser {
+    ...User_GetCurrentUser
+  }
+}
+
+fragment User_GetCurrentUser on UserDTO {
+  username
+  email
+}
